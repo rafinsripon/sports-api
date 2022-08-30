@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments Api</title>
+    <!-- get bootstrap Link -->
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <style>
+        /* .card{
+            background-color: #fa807298;
+            padding: 20px;
+        } */
+    </style>
+</head>
+<body>
+    <header class="text-center bg-black p-4">
+        <h1 class="text-white">Sports Api Practice</h1>
+    </header>
+    <main>
+        <section class="container mb-4 mt-5">
+            <div id="sports_details" style="width: 25rem;">
+                
+            </div>
+        </section>
+        <section class="container mt-5">
+            <!-- Search Area -->
+            <div class="text-center pb-5">
+                <input id="search_field" class="w-25 rounder-lg rounded-left text-black py-2" type="text" placeholder="Search Players">
+                <button onclick="searchSports()" class="btn btn-outline-secondary py-2 px-3" type="button">Search</button>
+            </div>
+            <!-- sports_container -->
+            <div id="sports_container" class="row row-cols-1 row-cols-md-3 g-4"></div>
+        </section>
+    </main>
+    <script src="./js/sports.js"></script>
+</body>
+</html>
+
+
+
+
